@@ -1,3 +1,4 @@
-import { Num } from './Num'
+import { State } from './state';
+import { StateArray } from './state-array';
 
-export { Num }
+export { State, StateArray }
