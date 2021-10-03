@@ -18,7 +18,7 @@
     "clean": "node tools/cleanup",
     "package": "npm run build && npm pack",
     "test": "jest --no-cache --runInBand",
-    "test:cov": "jest --coverage --no-cache --runInBand",
+    "test:cov": "jest --coverage --no-cache --runInBand"
   },
   "publishConfig": {
     "access": "public"
