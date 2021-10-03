@@ -1,6 +1,6 @@
 {
-  "name": "example-typescript-package",
-  "version": "0.2.2",
+  "name": "rxjs-state",
+  "version": "0.0.0",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -19,7 +19,6 @@
     "package": "npm run build && npm pack",
     "test": "jest --no-cache --runInBand",
     "test:cov": "jest --coverage --no-cache --runInBand",
-    "addscope": "node tools/packagejson name @tomchen/example-typescript-package"
   },
   "publishConfig": {
     "access": "public"
@@ -28,27 +27,18 @@
     "dist"
   ],
   "keywords": [
-    "example",
-    "typescript",
-    "npm",
-    "package",
-    "sample",
-    "boilerplate",
-    "starter",
-    "demo",
-    "cjs",
-    "esm",
-    "umd"
+    "rxjs",
+    "state management"
   ],
-  "author": "Tom Chen <tomchen.org@gmail.com>",
+  "author": "Luc Debène",
   "license": "MIT",
-  "homepage": "https://github.com/tomchen/example-typescript-package",
+  "homepage": "https://github.com/askirkela/rxjs-state",
   "repository": {
     "type": "git",
-    "url": "git@github.com:tomchen/example-typescript-package.git"
+    "url": "git@github.com:askirkela/rxjs-state.git"
   },
   "bugs": {
-    "url": "https://github.com/tomchen/example-typescript-package/issues"
+    "url": "https://github.com/askirkela/rxjs-state/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -69,5 +59,8 @@
     "typescript": "^4.4.3",
     "webpack": "^5.52.1",
     "webpack-cli": "^4.8.0"
+  },
+  "peerDependencies": {
+    "rxjs": "^6"
   }
 }
